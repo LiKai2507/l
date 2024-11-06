@@ -90,10 +90,10 @@ int main()
 {
     int Plaintext, k, total = 0;
     cin >> Plaintext;
-    // write here//
+    
     Plaintext += 2;
     k = 3;
-    // write here//
+    
     HanoiTowerCode(Plaintext, k, total);
 
     vector<vector<int>> PasswordTable = getPasswordTable(total);
